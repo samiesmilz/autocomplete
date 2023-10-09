@@ -2,7 +2,8 @@
 
 A simple web application for searching for fruits and getting suggestions as you type.
 
-![Fruit Search](screenshot.png)
+<img width="2521" alt="autocomplete" src="https://github.com/samiesmilz/autocomplete/assets/3438049/9c21e022-6e31-49d1-b502-75fbc1accbd8">
+
 
 ## Table of Contents
 
