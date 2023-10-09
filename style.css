@@ -1,0 +1,71 @@
+/* Reset Styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  background: linear-gradient(to right, #f8d122, #df4f00);
+  display: grid;
+  grid-template-rows: 60px 40vh min-content auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vh;
+  overflow-x: hidden;
+}
+
+/* Input Styles */
+#fruit {
+  width: 580px;
+  height: 55px;
+  padding-left: 10px;
+  border: 1px solid #eca43fdd;
+  background-color: #eca43fdd;
+  border-bottom: 2px solid orangered;
+  margin-bottom: 0;
+}
+
+input:focus {
+  outline: orangered;
+}
+
+.has-content {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* Suggestions Styles */
+.suggestions {
+  background-color: #eca43fdd;
+  border: none;
+}
+
+#suggestions-ul {
+  padding: 0;
+  margin: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#suggestions-ul li:hover {
+  cursor: pointer;
+}
+
+.suggestions ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Search Container Styles */
+.search-container {
+  min-height: fit-content;
+  box-shadow: 0 0 5px #0000004d; /* Subtle box shadow */
+}
+
+.has-suggestions {
+  background: linear-gradient(to right, rgb(248, 173, 88), #f2930e);
+  box-shadow: 0 0 10px #0000004d; /* Subtle box shadow */
+  padding: 3px;
+  border-radius: 10px;
+}
