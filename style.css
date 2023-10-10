@@ -71,15 +71,26 @@ input:focus {
   border-radius: 10px;
 }
 
+/* For screens up to 625px */
 @media screen and (max-width: 625px) {
   #fruit {
-    max-width: 550px; /* Set a maximum width if needed */
-    min-width: 450px;
+    max-width: 550px;
+    min-width: 480px; /* Let it adjust automatically */
   }
 }
+
+/* For screens up to 500px */
 @media screen and (max-width: 500px) {
   #fruit {
-    max-width: 480px; /* Set a maximum width if needed */
-    min-width: 450px;
+    max-width: 480px;
+    min-width: 415px;
+  }
+}
+
+/* For screens up to 450px */
+@media screen and (max-width: 450px) {
+  #fruit {
+    max-width: 100%;
+    min-width: auto;
   }
 }
