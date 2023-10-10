@@ -90,7 +90,7 @@ input:focus {
 /* For screens up to 450px */
 @media screen and (max-width: 450px) {
   #fruit {
-    max-width: 100%;
-    min-width: auto;
+    max-width: 400px;
+    min-width: 380px;
   }
 }
